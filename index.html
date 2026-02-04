@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nagendra Pulidindi | Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 10%;
+    background:#111;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+.logo img{
+    width:60px;
+    border-radius:50%;
+    border:2px solid #00bcd4;
+}
+nav a{
+    color:#fff;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:500;
+}
+nav a:hover{
+    color:#00bcd4;
+}
+
+/* HOME */
+.home{
+    padding:100px 10%;
+    text-align:center;
+    background:linear-gradient(135deg,#00bcd4,#008ba3);
+    color:#fff;
+}
+.home h1{
+    font-size:42px;
+}
+.home span{
+    color:#111;
+}
+.home h3{
+    margin:10px 0;
+}
+.home p{
+    max-width:700px;
+    margin:auto;
+}
+
+/* SECTION */
+section{
+    padding:60px 10%;
+}
+h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#111;
+}
+
+/* ABOUT */
+.about-details{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+    gap:20px;
+}
+.about-details div{
+    background:#fff;
+    padding:20px;
+    width:30%;
+    border-radius:8px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+.about-details i{
+    font-size:22px;
+    color:#00bcd4;
+    margin-bottom:10px;
+}
+
+/* SKILLS */
+.skills-container{
+    display:flex;
+    gap:20px;
+}
+.skill-box{
+    background:#fff;
+    padding:20px;
+    width:50%;
+    border-radius:8px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+.skill-box ul{
+    margin-top:10px;
+}
+.skill-box li{
+    margin:6px 0;
+}
+
+/* EDUCATION */
+.education-card{
+    background:#fff;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+    margin-bottom:15px;
+}
+
+/* PROJECTS */
+.project-container{
+    display:flex;
+    justify-content:center;
+}
+.project-card{
+    background:#00bcd4;
+    color:#fff;
+    padding:25px;
+    width:320px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* CONTACT */
+.contact{
+    text-align:center;
+}
+.contact p{
+    margin:8px 0;
+}
+
+/* FOOTER */
+footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+footer a{
+    color:#fff;
+    margin:0 10px;
+    font-size:20px;
+}
+footer a:hover{
+    color:#00bcd4;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .about-details, .skills-container{
+        flex-direction:column;
+    }
+    .about-details div, .skill-box{
+        width:100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <!-- Replace image name with your photo -->
+        <img src="C:\Users\nagen\OneDrive\Pictures\pic.jpeg" alt="Nagendra Pulidindi">
+    </div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <h1>Nagendra <span>Pulidindi</span></h1>
+    <h3>B.Sc Computer Science Student</h3>
+    <p>
+        Motivated and detail-oriented graduate seeking an entry-level position
+        to apply technical knowledge, problem-solving skills, and strong work ethic.
+    </p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center;">
+        I am Nagendra Pulidindi from Andhra Pradesh, India.
+        Passionate about programming, web development, and learning new technologies.
+    </p>
+
+    <div class="about-details">
+        <div>
+            <i class="fas fa-phone"></i>
+            <h4>Phone</h4>
+            <p>+91 9381427038</p>
+        </div>
+        <div>
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <p>nagendra2805p@gmail.com</p>
+        </div>
+        <div>
+            <i class="fas fa-location-dot"></i>
+            <h4>Location</h4>
+            <p>Andhra Pradesh, India</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill-box">
+            <h4>Technical Skills</h4>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Basic Python Programming</li>
+                <li>MS Word, Excel, PowerPoint</li>
+                <li>Data Entry & Internet Research</li>
+                <li>MySQL Basics</li>
+            </ul>
+        </div>
+
+        <div class="skill-box">
+            <h4>Soft Skills</h4>
+            <ul>
+                <li>Communication Skills</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Leadership Qualities</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="education-card">
+        <h4>B.Sc Computer Science</h4>
+        <p>Aditya Degree College, Amalapuram</p>
+        <p>2023 – Present | CGPA: 8.5</p>
+    </div>
+
+    <div class="education-card">
+        <h4>Senior Secondary (12th)</h4>
+        <p>CBSE Board | 2023</p>
+        <p>Percentage: 66.6%</p>
+    </div>
+
+    <div class="education-card">
+        <h4>Secondary (10th)</h4>
+        <p>CBSE Board | 2021</p>
+        <p>Percentage: 90%</p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>
+                Developed using Python and MySQL to manage
+                student records and attendance efficiently.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p><i class="fas fa-phone"></i> +91 9381427038</p>
+    <p><i class="fas fa-envelope"></i> nagendra2805p@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Nagendra Pulidindi</p>
+    <div>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>
